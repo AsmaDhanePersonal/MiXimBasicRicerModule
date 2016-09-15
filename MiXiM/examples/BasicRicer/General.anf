@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scave:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:scave="http://www.omnetpp.org/omnetpp/scave">
+  <inputs>
+    <inputs name="/MiXiM/examples/BasicRicer/results/General-*.vec"/>
+    <inputs name="/MiXiM/examples/BasicRicer/results/General-*.sca"/>
+  </inputs>
+  <datasets>
+    <datasets name="RUNWithoutLearning0">
+      <items xsi:type="scave:Add" filterPattern="file(/MiXiM/examples/BasicRicer/results/General-0.vec) AND attr:configname(General) AND attr:runnumber(0) AND module(BasicRicerExampleNetwork.node[2].nic.mac)" type="VECTOR"/>
+      <items xsi:type="scave:ScatterChart" name="Run0"/>
+      <items xsi:type="scave:Add" filterPattern="file(/MiXiM/examples/BasicRicer/results/General-0.vec) AND attr:configname(General) AND attr:runnumber(0) AND module(BasicRicerExampleNetwork.node[1].nic.mac)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/MiXiM/examples/BasicRicer/results/General-0.vec) AND attr:configname(General) AND attr:runnumber(0) AND module(BasicRicerExampleNetwork.node[3].nic.mac)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/MiXiM/examples/BasicRicer/results/General-0.vec) AND attr:configname(General) AND attr:runnumber(0) AND module(BasicRicerExampleNetwork.node[4].nic.mac)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/MiXiM/examples/BasicRicer/results/General-0.vec) AND attr:configname(General) AND attr:runnumber(0) AND module(BasicRicerExampleNetwork.node[5].nic.mac)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/MiXiM/examples/BasicRicer/results/General-0.vec) AND attr:configname(General) AND attr:runnumber(0) AND module(BasicRicerExampleNetwork.node[6].nic.mac)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/MiXiM/examples/BasicRicer/results/General-0.vec) AND attr:configname(General) AND attr:runnumber(0) AND module(BasicRicerExampleNetwork.node[7].nic.mac)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/MiXiM/examples/BasicRicer/results/General-0.vec) AND attr:configname(General) AND attr:runnumber(0) AND module(BasicRicerExampleNetwork.node[8].nic.mac)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/MiXiM/examples/BasicRicer/results/General-0.vec) AND attr:configname(General) AND attr:runnumber(0) AND module(BasicRicerExampleNetwork.node[9].nic.mac)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/MiXiM/examples/BasicRicer/results/General-0.vec) AND attr:configname(General) AND attr:runnumber(0) AND module(BasicRicerExampleNetwork.node[10].nic.mac)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/MiXiM/examples/BasicRicer/results/General-0.vec) AND attr:configname(General) AND attr:runnumber(0) AND module(BasicRicerExampleNetwork.node[11].nic.mac)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/MiXiM/examples/BasicRicer/results/General-0.vec) AND attr:configname(General) AND attr:runnumber(0) AND module(BasicRicerExampleNetwork.node[12].nic.mac)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/MiXiM/examples/BasicRicer/results/General-0.vec) AND attr:configname(General) AND attr:runnumber(0) AND module(BasicRicerExampleNetwork.node[13].nic.mac)" type="VECTOR"/>
+      <items xsi:type="scave:Add" filterPattern="file(/MiXiM/examples/BasicRicer/results/General-0.vec) AND attr:configname(General) AND attr:runnumber(0) AND module(BasicRicerExampleNetwork.node[14].nic.mac)" type="VECTOR"/>
+      <items xsi:type="scave:ScatterChart"/>
+    </datasets>
+    <datasets name="RunWithClust1">
+      <items xsi:type="scave:Add" filterPattern="" type="VECTOR"/>
+      <items xsi:type="scave:ScatterChart"/>
+    </datasets>
+  </datasets>
+  <chartSheets>
+    <chartSheets name="default" charts="//@datasets/@datasets.0/@items.15 //@datasets/@datasets.1/@items.1 //@datasets/@datasets.0/@items.1"/>
+  </chartSheets>
+</scave:Analysis>
